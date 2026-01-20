@@ -1,0 +1,27 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "task-tracker",
+    "test": "node tests/commands.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "task-tracker": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
